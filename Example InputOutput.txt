@@ -1,0 +1,19 @@
+Example Text (Input):
+"I have around 1000 Hadoop projects, some of them have 10,000+ lines of logic. Can I use AI to convert them into BigQuery automatically? I also want to provide mapping for the table names. How long will it take and which model is best?"
+
+### ✅ Automation Feasibility: Hadoop → BigQuery
+
+| Aspect               | Details                                                             |
+
+| **Automation Possible**  | ✅ Yes – highly automatable using AI with some manual QA         |
+| **Best LLM Choice**      | Claude Opus (best reasoning) or Nova Pro (cost-efficient)       |
+| **Estimated Cost**       | ~$0.05–$0.20 per project; ~$100 for 1000 projects               |
+| **Timeline**             | ~6–8 days (2 days setup + 4–6 days batch run with reviews)      |
+| **Confidence Score**     | ~88% overall (95% on schema, 85% on logic, 70% on UDF handling) |
+| **Optimization Tips**    | Chunk large files, use prompt templates, cache reused code      |
+
+#### 🧠 Additional Insight:
+- You can automate dry-run validations using BigQuery APIs.
+- For repeated logic patterns, a fine-tuned Claude Haiku model may reduce cost.
+
+✅ **Final Verdict:** Yes, you can automate this with high accuracy and cost-effectiveness using Claude or Nova Pro.
