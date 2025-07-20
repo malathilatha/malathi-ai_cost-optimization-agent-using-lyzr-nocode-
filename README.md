@@ -19,7 +19,7 @@ This repository contains the submission for the AI Agent built using **Lyzr Agen
 - `agen api` - json file
 
 ### 📽️ Live App Demo:
-👉 https://studio.lyzr.ai/agent/687cd34489681fa4f199bd21
+👉 https://studio.lyzr.ai/agent/687cf3b189681fa4f199bd26
 
 ---
 
